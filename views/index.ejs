@@ -1,0 +1,54 @@
+<%-include("partials/header")  %>
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <!--Nav-->
+        <nav>
+            <div class="nav container">
+                <a href="/" class="logo">Marian<span> Blog</span></a>
+                <!--Btn Admin-->
+                <a href="/admin" class="login">Admin</a>
+            </div>  
+        </nav>
+    </header>
+    <!--Home-->
+    <section class="home" id="home">
+        <div class="home-text container">
+          <h2 class="home-title">The cooking Art</h2>
+          <span class="home-subtitle">Cook delicious and healthy</span>
+        </div>
+    </section>
+
+
+    <div>
+        <!--Post Filter-->
+        <div class="post-filter container">
+            <span class="filter-item active-filter" data-filter="all">All</span>
+            <span class="filter-item" data-filter="tips">Tips</span>
+            <span class="filter-item" data-filter="recetas">Recetas</span>
+            <span class="filter-item" data-filter="notas">Notas</span>
+        </div>
+      <!--Posts-->
+        <main class="post container" id="lista-publicaciones" >
+            
+                
+    
+    
+    
+                
+                
+        </main>
+       
+    
+    </div>
+    <script src="/js/index.js" type="module"></script>
+    <script src="/js/home.js" type="module"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<%-include("partials/footer")  %>
